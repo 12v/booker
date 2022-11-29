@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "playwright": "^1.28.1"
+  },
+  "name": "booker",
+  "version": "1.0.0",
+  "main": "playwright-script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
