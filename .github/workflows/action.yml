@@ -18,3 +18,9 @@ jobs:
           cache: 'npm'
       - run: npm ci
       - run: node playwright-script.js
+        env:
+          LTA_USERNAME: ${{ secrets.LTA_USERNAME }}
+          LTA_PASSWORD: ${{ secrets.LTA_PASSWORD }}
+          CC_NUMBER: ${{ secrets.CC_NUMBER }}
+          CC_EXPIRY: ${{ secrets.CC_EXPIRY }}
+          CC_CVC: ${{ secrets.CC_CVC }}
